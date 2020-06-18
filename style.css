@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Supercell';
+  src: url('Supercell-magic-webfont.ttf');
+  font-style: normal;
+}
+body {
+    font-family: 'Supercell';
+    background-color: rgba(31, 80, 31, 0.87);
+    color: rgba(250, 247, 234, 0.897);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+img {
+    margin-top: 16px;
+    display: block;
+    width: 300px;
+}
+form {
+    width: 300px;
+    transform: scale(1.1);
+}
+#form-e {
+    margin-top: 0px;
+    padding: 10px;
+    
+}
+#form-g {
+    margin-top: 0px;
+    padding: 10px;
+    padding-right: 10px;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    font-family: 'Supercell';
+    background-color: cornsilk;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#gold {
+    color: goldenrod;
+    letter-spacing: 3px;
+}
+#elix {
+    color: rgb(131, 36, 131);
+}
+.addcontainer {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    width: 132.5px;
+    height: 66.5px;
+    background-image: url('https://vignette.wikia.nocookie.net/clashroyale/images/6/60/BattleButton.png/revision/latest?cb=20160314183829');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 15px 15px 15px 15px;
+}
+.savecontainer {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    width: 132.5px;
+    height: 66.5px;
+    background-image:url('BattleButton (1).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 15px 15px 15px 15px;
+}
+
+#result-g {
+    font-size: 16px;
+    display: grid;
+    grid: 200px;
+    color: goldenrod;
+    margin-bottom: 40px;
+
+}
+#result-e{
+    letter-spacing: 3px;
+    color: rgb(131, 36, 131);
+    font-weight: 600;
+}
+.conto {
+    max-width: 200px;
+    display: inline;
+    background-color: white;
+}
+#tot {
+    margin-top: 30px;
+}
+label {
+    font-size: 16px;
+}
+footer {
+    margin-top: 70px;
+    color: rgb(180, 179, 179);
+    border-top: 2px solid rgb(180, 179, 179);
+}
+.cont {
+    margin-top: 40px;
+    min-width: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+

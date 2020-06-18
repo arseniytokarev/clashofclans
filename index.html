@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='main-content'>
+        <div class="header">
+            <h1>Gold and Elixir Calculator</h1>
+        </div>
+        <div class="cont">
+        <form action="" id="form-g">
+            <h2 id="gold">Gold</h3>
+                <div id='inputcont-g'>
+                    <div>
+                        <label for="timestamp">Gold Mine</label>
+                        <br>
+                        <input class='input-g' type="number">
+                        <br>
+                    </div>
+                </div>
+            <div class="addcontainer" onclick="addInput()">
+                <p class='addmore'>Add</p>  
+            </div>
+            <br>
+            <label for="timestamp">Hours</label>
+            <br>
+            <input type="number" id='hours-g'>
+            <br>
+            <div class="savecontainer" onclick="calcTotalG()">
+                <p class=''>Calculate</p>  
+            </div>
+            <p id='tot'>Total Gold:</p>
+                <div id='result-g'></div>
+        </form>
+
+        <form action="" id="form-e">
+            <h2 id="elix">Elixir</h3>
+                <div id='inputcont-e'>
+                    <div>
+                        <label for="timestamp">Elixir Mine</label>
+                        <br>
+                        <input class='input-e' type="number">
+                        <br>
+                    </div>
+                </div>
+            <div class="addcontainer" onclick="addInputE()">
+                <p class='addmore'>Add</p>  
+            </div>
+            <br>
+            <label for="timestamp">Hours</label>
+            <br>
+            <input type="number" id='hours-e'>
+            <br>
+            <div class="savecontainer" onclick="calcTotalE()">
+                <p class=''>Calculate</p>  
+            </div>
+            <p id='tot'>Total Elixir:</p>
+            
+            <p id='result-e'></p>
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <p>Created by Arseniy :)</p>
+    </footer>
+</body>
+</html>
