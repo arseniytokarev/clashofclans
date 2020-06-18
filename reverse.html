@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='main-content'>
+    <h1>Gold and Elixir Calculator</h1>
+    <a href="index.html">home</a>
+    <a href="reverse.html">reverse</a>
+    <div class='cont'>
+    <form action="" id="form-r">
+            <h2 id="gold">Elixir/Gold</h2>
+                <label for="timestamp">Total</label>
+                <br>
+                <input type="number" id='res-r'>
+                <br>
+                <h2 id="gold">Elixir/Gold Mines</h3>
+                <div id='inputcont-r'>
+                    <div>
+                        <label for="timestamp">Mine</label>
+                        <br>
+                        <input class='input-r' type="number">
+                        <br>
+                    </div>
+                </div>
+            <div class="addcontainer" onclick="addInputR()">
+                <p class='addmore'>Add</p>  
+            </div>
+
+            <br>
+            <div class="savecontainer" onclick="reverseCalc()">
+                <p class=''>Calculate</p>  
+            </div>
+            <p id='tot'>Hours to Wait:</p>
+                <div id='result-r'></div>
+        </form>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

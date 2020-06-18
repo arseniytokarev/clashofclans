@@ -99,3 +99,41 @@ function calcTotalE() {
     document.getElementById('result-e').innerHTML = new Intl.NumberFormat().format(realtot);
 
 }
+
+
+function reverseCalc() { 
+    let profile = [];
+    f = document.getElementById('form-r')
+    let obj;
+    f.querySelectorAll(".input-r").forEach((input = 0) => {
+        if (!input.value) {
+            profile.push(0)
+        } else {
+            profile.push(input.value)
+        }
+    });
+
+    var totalRes = document.getElementById('res-r').value;
+    totalRes = parseInt(totalRes, 10)
+    var productionSum = profile.reduce((total, val) => {
+        return parseInt(total, 10) + parseInt(val, 10)
+    })
+    productionSum = parseInt(productionSum, 10)
+    var hours = totalRes / productionSum;
+    hours = parseInt(hours, 10)
+    document.getElementById('result-r').innerHTML = hours;
+}
+
+function addInputR() {
+    var div = document.createElement('div');
+    var input = document.createElement('input')
+    var br = document.createElement('br')
+    input.classList.add('input-r')
+    var label = document.createElement('label')
+    label.innerHTML = 'Mine'
+    div.appendChild(label)
+    div.appendChild(br)
+    div.appendChild(input)
+    var form = document.getElementById('inputcont-r')
+    form.appendChild(div)
+}
